@@ -4,6 +4,8 @@ This is just a very simple template to start collecting leads and beta users as 
 
 ## Development
 
+Change the variable `POST_URL` in [js/main.js](https://github.com/pleasestack/coming-soon/blob/master/js/main.js#L1)
+
 ### Recommendations
 
 Install a simple hot reload server so you can see changes refreshed automatically in the browser window

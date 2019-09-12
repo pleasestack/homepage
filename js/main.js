@@ -1,3 +1,5 @@
+const POST_URL = 'https://api.producthunt.com/widgets/upcoming/v1/upcoming/please-stack/forms'
+
 const emailForm = document.getElementById('form')
 const emailField = document.getElementById('email')
 const successMessage = document.getElementById('success')
@@ -49,7 +51,7 @@ function subscribe() {
     submit.classList.add('is-loading')
     axios
       .post(
-        'https://api.producthunt.com/widgets/upcoming/v1/upcoming/please-stack/forms',
+        POST_URL,
         {
           email: emailField.value
         }
